@@ -1,0 +1,28 @@
+{
+  "name": "@credit-card-stuffs/ccgen",
+  "version": "0.1.0",
+  "description": "Lightweight, fast and full featured library for credit card generation.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "url": "https://github.com/credit-card-stuffs/ccgen"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "ccgen",
+    "ccs"
+  ],
+  "author": "Gabriel",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@credit-card-stuffs/luhn": "^2.0.0"
+  }
+}
