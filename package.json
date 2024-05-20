@@ -1,6 +1,6 @@
 {
   "name": "@credit-card-stuffs/ccgen",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lightweight, fast and full featured library for credit card generation.",
   "main": "dist/index.js",
   "files": [
