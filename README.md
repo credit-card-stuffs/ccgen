@@ -19,7 +19,7 @@ npm i @credit-card-stuffs/ccgen
 You can import like any other npm package
 
 ```ts
-import ccgen from "@credit-card-stuffs/ccgen"
+import { ccgen } from "@credit-card-stuffs/ccgen"
 ```
 
 ### Basic
