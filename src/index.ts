@@ -138,31 +138,3 @@ export class CCGEN {
 
 export const ccgen = (ops: CCGENOptionsInterface, amount?: number) =>
     new CCGEN(ops).generate(amount)
-
-console.log(
-    ccgen(
-        {
-            generation: {
-                masks: {
-                    targets: {
-                        number: {
-                            mask: "4xxxxxxxxxxxxxxx",
-                        },
-                        cvv: {
-                            mask: "xxx",
-                        },
-                    },
-                },
-                date: {
-                    month: {
-                        generate: true,
-                    },
-                    year: {
-                        generate: true,
-                    },
-                },
-            },
-        },
-        5
-    )
-)
